@@ -1,0 +1,33 @@
+.file-card{
+
+    border-radius:15px;
+
+    margin-bottom:15px;
+}
+
+.pdf-icon{
+
+    font-size:32px;
+
+    color:#E53935;
+}
+
+.remove-btn{
+
+    border:none;
+
+    background:none;
+
+    font-size:28px;
+
+    color:#dc3545;
+
+    transition:.3s;
+}
+
+.remove-btn:hover{
+
+    color:#b71c1c;
+
+    transform:scale(1.1);
+}

@@ -1,0 +1,43 @@
+.service-option{
+    border-radius:18px;
+    cursor:pointer;
+    transition:all .3s ease;
+    min-height:160px;
+
+    display:flex;
+    justify-content:center;
+}
+
+.service-option:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 10px 25px rgba(0,0,0,.12)!important;
+}
+
+.service-option-icon{
+
+    font-size:42px;
+
+    color:#6C4CF1;
+}
+
+.selected{
+
+    background:#F3F0FF;
+
+    border:2px solid #6C4CF1 !important;
+}
+
+@media(max-width:768px){
+
+    .service-option{
+
+        min-height:140px;
+    }
+
+    .service-option-icon{
+
+        font-size:36px;
+    }
+}

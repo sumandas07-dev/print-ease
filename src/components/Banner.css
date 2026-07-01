@@ -1,0 +1,17 @@
+.banner-card{
+
+    background:linear-gradient(135deg,#6C4CF1,#8B5CF6);
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    margin-bottom:30px;
+}
+
+.banner-image{
+
+    max-height:160px;
+
+    object-fit:contain;
+}

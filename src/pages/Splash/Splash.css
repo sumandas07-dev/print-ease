@@ -1,0 +1,126 @@
+/* Whole Screen */
+
+.splash-container{
+    background:#fff;
+    padding:40px 20px;
+}
+
+/* Left Content */
+
+.content-wrapper{
+    max-width:500px;
+    margin:auto;
+}
+
+/* Heading */
+
+.main-title{
+    font-size:clamp(2.5rem,5vw,4.2rem);
+    font-weight:700;
+    color:#222;
+    margin-bottom:5px;
+}
+
+/* Purple Text */
+
+.sub-title{
+    font-size:clamp(1.8rem,3vw,2.8rem);
+    font-weight:700;
+    color:#6C4CF1;
+    margin-bottom:25px;
+}
+
+/* Description */
+
+.description{
+    font-size:clamp(1rem,1.5vw,1.15rem);
+    color:#777;
+    line-height:1.8;
+    margin-bottom:40px;
+}
+
+/* Image */
+
+.splash-image{
+    width:100%;
+    max-width:450px;
+}
+
+/* Button Group */
+
+.button-group{
+    max-width:350px;
+}
+
+/* Get Started */
+
+.get-started-btn{
+
+    background:#6C4CF1;
+    color:white;
+
+    height:55px;
+
+    border:none;
+
+    border-radius:12px;
+
+    font-size:18px;
+
+    font-weight:600;
+}
+
+.get-started-btn:hover{
+
+    background:#5939f5;
+}
+
+/* Login */
+
+.login-btn{
+
+    background:#fff;
+
+    color:#222;
+
+    height:55px;
+
+    border:1px solid #ddd;
+
+    border-radius:12px;
+
+    font-size:18px;
+
+    font-weight:600;
+}
+
+.login-btn:hover{
+
+    background:#f8f8f8;
+}
+
+
+/* ---------- Mobile ---------- */
+
+@media (max-width:768px){
+
+    .content-wrapper{
+
+        text-align:center;
+
+        margin-top:30px;
+    }
+
+    .button-group{
+
+        margin:auto;
+    }
+
+    .splash-image{
+
+        max-width:280px;
+
+        margin-bottom:30px;
+    }
+
+}

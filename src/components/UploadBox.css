@@ -1,0 +1,50 @@
+.upload-box{
+
+    border:2px dashed #CFCFCF;
+
+    border-radius:20px;
+
+    padding:50px 20px;
+
+    background:#fff;
+
+    text-align:center;
+
+    transition:.3s;
+}
+
+.upload-box:hover{
+
+    border-color:#6C4CF1;
+
+    background:#F8F6FF;
+}
+
+.upload-icon{
+
+    font-size:60px;
+
+    color:#6C4CF1;
+}
+
+.browse-btn{
+
+    background:#6C4CF1;
+
+    color:white;
+
+    border:none;
+
+    padding:10px 28px;
+
+    border-radius:12px;
+
+    font-weight:600;
+}
+
+.browse-btn:hover{
+
+    background:#5839ec;
+
+    color:white;
+}

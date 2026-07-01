@@ -1,0 +1,59 @@
+.search-container{
+    margin-bottom:25px;
+}
+
+/* Icon */
+
+.search-icon{
+
+    background:white;
+
+    border-right:none;
+
+    border-radius:15px 0 0 15px;
+
+    color:#999;
+}
+
+/* Input */
+
+.search-input{
+
+    border-left:none;
+
+    border-radius:0 15px 15px 0;
+
+    height:50px;
+
+    font-size:15px;
+
+    box-shadow:none;
+}
+
+/* Remove Bootstrap focus */
+
+.search-input:focus{
+
+    box-shadow:none;
+
+    border-color:#ced4da;
+}
+
+.search-icon{
+
+    border-color:#ced4da;
+}
+
+.search-input:focus + *{
+
+    border-color:#ced4da;
+}
+
+.input-group{
+    box-shadow:0 2px 10px rgba(0,0,0,0.05);
+    border-radius:15px;
+}
+
+.search-input::placeholder{
+    color:#999;
+}
