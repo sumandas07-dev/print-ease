@@ -4,7 +4,7 @@ import SelectService from "./pages/SelectService/SelectService.jsx";
 import Upload from "./pages/Upload/Upload.jsx";
 
 function App() {
-  return <Upload />;
+  return <Splash />;
 }
 
 export default App;

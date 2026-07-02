@@ -11,6 +11,15 @@ function Splash() {
 
           <div className="content-wrapper">
 
+            {/* Logo */}
+            <div className="logo-section">
+              <h1 className="logo">
+                Docuri<span>X</span>
+              </h1>
+              <div className="logo-line"></div>
+            </div>
+
+            {/* Heading */}
             <h2 className="main-title">
               All Digital Services
             </h2>
@@ -41,7 +50,6 @@ function Splash() {
         </div>
 
         {/* Right Section */}
-
         <div className="col-lg-6 col-md-6 col-12 text-center order-1 order-md-2">
 
           <img

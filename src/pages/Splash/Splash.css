@@ -1,126 +1,150 @@
-/* Whole Screen */
+/* ================= Whole Screen ================= */
 
-.splash-container{
-    background:#fff;
-    padding:40px 20px;
+.splash-container {
+    background: #fff;
+    padding: 40px 20px;
 }
 
-/* Left Content */
+/* ================= Left Content ================= */
 
-.content-wrapper{
-    max-width:500px;
-    margin:auto;
+.content-wrapper {
+    max-width: 500px;
+    margin: auto;
 }
 
-/* Heading */
+/* ================= Logo ================= */
 
-.main-title{
-    font-size:clamp(2.5rem,5vw,4.2rem);
-    font-weight:700;
-    color:#222;
-    margin-bottom:5px;
+.logo-section {
+    margin-bottom: 20px;
 }
 
-/* Purple Text */
-
-.sub-title{
-    font-size:clamp(1.8rem,3vw,2.8rem);
-    font-weight:700;
-    color:#6C4CF1;
-    margin-bottom:25px;
+.logo {
+    font-size: clamp(2.8rem, 5vw, 4rem);
+    font-weight: 800;
+    color: #C1121F;
+    margin: 0;
+    line-height: 1;
 }
 
-/* Description */
-
-.description{
-    font-size:clamp(1rem,1.5vw,1.15rem);
-    color:#777;
-    line-height:1.8;
-    margin-bottom:40px;
+.logo span {
+    color: #E11D48;
 }
 
-/* Image */
-
-.splash-image{
-    width:100%;
-    max-width:450px;
+.logo-line {
+    width: 80px;
+    height: 4px;
+    background: #6C4CF1;
+    border-radius: 20px;
+    margin-top: 10px;
 }
 
-/* Button Group */
+/* ================= Heading ================= */
 
-.button-group{
-    max-width:350px;
+.main-title {
+    font-size: clamp(2.5rem, 5vw, 4.2rem);
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 5px;
+}
+
+/* ================= Purple Text ================= */
+
+.sub-title {
+    font-size: clamp(1.8rem, 3vw, 2.8rem);
+    font-weight: 700;
+    color: #6C4CF1;
+    margin-bottom: 25px;
+}
+
+/* ================= Description ================= */
+
+.description {
+    font-size: clamp(1rem, 1.5vw, 1.15rem);
+    color: #777;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+/* ================= Image ================= */
+
+.splash-image {
+    width: 100%;
+    max-width: 450px;
+}
+
+/* ================= Buttons ================= */
+
+.button-group {
+    max-width: 350px;
 }
 
 /* Get Started */
 
-.get-started-btn{
-
-    background:#6C4CF1;
-    color:white;
-
-    height:55px;
-
-    border:none;
-
-    border-radius:12px;
-
-    font-size:18px;
-
-    font-weight:600;
+.get-started-btn {
+    background: #6C4CF1;
+    color: white;
+    height: 55px;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .3s;
 }
 
-.get-started-btn:hover{
-
-    background:#5939f5;
+.get-started-btn:hover {
+    background: #5939f5;
+    color: white;
 }
 
 /* Login */
 
-.login-btn{
-
-    background:#fff;
-
-    color:#222;
-
-    height:55px;
-
-    border:1px solid #ddd;
-
-    border-radius:12px;
-
-    font-size:18px;
-
-    font-weight:600;
+.login-btn {
+    background: #fff;
+    color: #222;
+    height: 55px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .3s;
 }
 
-.login-btn:hover{
-
-    background:#f8f8f8;
+.login-btn:hover {
+    background: #f8f8f8;
 }
 
+/* ================= Mobile ================= */
 
-/* ---------- Mobile ---------- */
+@media (max-width:768px) {
 
-@media (max-width:768px){
-
-    .content-wrapper{
-
-        text-align:center;
-
-        margin-top:30px;
+    .content-wrapper {
+        text-align: center;
+        margin-top: 30px;
     }
 
-    .button-group{
-
-        margin:auto;
+    .button-group {
+        margin: auto;
     }
 
-    .splash-image{
-
-        max-width:280px;
-
-        margin-bottom:30px;
+    .splash-image {
+        max-width: 280px;
+        margin-bottom: 30px;
     }
 
+    .logo-section {
+        text-align: center;
+    }
+
+    .logo-line {
+        margin: 10px auto 0;
+    }
+}
+
+/* ================= Desktop ================= */
+
+@media (min-width:769px) {
+
+    .logo-line {
+        margin-left: 0;
+    }
 }
