@@ -1,0 +1,53 @@
+/* ==========================
+        Register Page
+========================== */
+
+.register-page{
+    width:100%;
+    min-height:100vh;
+
+    background:#F6F7FC;
+
+    overflow:hidden;
+}
+
+/* Bootstrap row ko full height dena */
+
+.register-page .container-fluid,
+.register-page .row{
+    min-height:100vh;
+}
+
+/* Desktop */
+
+@media (min-width:992px){
+
+    .register-page{
+        padding:0;
+    }
+
+}
+
+/* Tablet */
+
+@media (max-width:991px){
+
+    .register-page{
+
+        padding:0;
+
+    }
+
+}
+
+/* Mobile */
+
+@media (max-width:768px){
+
+    .register-page{
+
+        background:white;
+
+    }
+
+}

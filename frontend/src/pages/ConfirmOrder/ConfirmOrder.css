@@ -1,0 +1,146 @@
+.confirm-page{
+
+    max-width:700px;
+
+    margin:auto;
+
+    padding-bottom:50px;
+}
+
+/* Back Button */
+
+.back-btn{
+
+    width:45px;
+    height:45px;
+
+    border-radius:50%;
+
+    border:1px solid #ddd;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:22px;
+
+    color:#6C4CF1;
+}
+
+/* Place Order */
+
+.place-order-btn{
+
+    height:58px;
+
+    border:none;
+
+    border-radius:14px;
+
+    background:#6C4CF1;
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    transition:.3s;
+}
+
+.place-order-btn:hover{
+
+    background:#5939f5;
+
+    color:white;
+}
+
+/* ==========================
+      Order Card
+========================== */
+
+.order-icon{
+
+    width:75px;
+    height:75px;
+
+    border-radius:18px;
+
+    background:#f4f0ff;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:#6C4CF1;
+
+    font-size:40px;
+}
+
+/* ==========================
+      Price Card
+========================== */
+
+.card hr{
+
+    margin:0;
+
+    opacity:.15;
+}
+
+/* ==========================
+      Address Card
+========================== */
+
+.change-btn{
+
+    color:#6C4CF1;
+
+    font-weight:600;
+}
+
+.change-btn:hover{
+
+    color:#5939f5;
+}
+
+/* ==========================
+      Payment Card
+========================== */
+
+.payment-card{
+
+    border:2px solid #6C4CF1 !important;
+}
+
+.payment-icon{
+
+    width:55px;
+    height:55px;
+
+    border-radius:14px;
+
+    background:#F4F0FF;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:#6C4CF1;
+
+    font-size:28px;
+}
+
+.form-check-input{
+
+    width:20px;
+    height:20px;
+
+    cursor:pointer;
+}
+
+.form-check-input:checked{
+
+    background-color:#6C4CF1;
+    border-color:#6C4CF1;
+}

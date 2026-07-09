@@ -1,7 +1,7 @@
 /* ================= Whole Screen ================= */
 
 .splash-container {
-    background: #fff;
+    background: #f4eaea;
     padding: 40px 20px;
 }
 
@@ -92,8 +92,8 @@
 }
 
 .get-started-btn:hover {
-    background: #5939f5;
-    color: white;
+    background: #1f02ae;
+    color: rgb(6, 5, 5);
 }
 
 /* Login */
@@ -110,7 +110,14 @@
 }
 
 .login-btn:hover {
-    background: #f8f8f8;
+    background: #100101;
+    color: #ac0328;
+    height: 55px;
+    border: 1px solid #110909;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .3s;
 }
 
 /* ================= Mobile ================= */

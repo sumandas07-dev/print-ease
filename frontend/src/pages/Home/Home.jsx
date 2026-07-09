@@ -5,10 +5,11 @@ import SearchBar from "../../components/SearchBar";
 import Banner from "../../components/Banner";
 import ServiceCard from "../../components/ServiceCard";
 import BottomNavbar from "../../components/BottomNavbar";
-
 import services from "../../data/services";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
+  const navigate = useNavigate();
   return (
     <>
       {/* Main Content */}
@@ -29,9 +30,14 @@ function Home() {
             Popular Services
           </h4>
 
-          <button className="btn btn-link text-decoration-none p-0">
+
+          <button
+            className="btn btn-link text-decoration-none p-0"
+            onClick={() => navigate("/service")}
+          >
             View All
           </button>
+
         </div>
 
         {/* Services Grid */}

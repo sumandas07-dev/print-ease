@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import splashImg from "../../assets/images/splash.png";
 import "./Splash.css";
 
@@ -38,10 +39,12 @@ function Splash() {
               <button className="btn get-started-btn">
                 Get Started
               </button>
-
-              <button className="btn login-btn">
-                Login
-              </button>
+              
+              <Link to='/Login'>
+                <button className="btn login-btn">
+                  Login
+                </button>
+              </Link>
 
             </div>
 

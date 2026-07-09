@@ -4,8 +4,10 @@ import { IoArrowBack } from "react-icons/io5";
 
 import ServiceOption from "../../components/ServiceOption";
 import serviceOptions from "../../data/serviceOptions";
+import { useNavigate } from "react-router-dom";
 
 function SelectService() {
+  const navigate = useNavigate();
   return (
     <>
       <div className="container py-4 select-service-page">
@@ -14,7 +16,7 @@ function SelectService() {
 
         <div className="d-flex align-items-center mb-4">
 
-          <button className="btn back-btn me-3">
+          <button className="btn back-btn me-3" onClick={() => navigate("/Home")}>
             <IoArrowBack size={22} />
           </button>
 
